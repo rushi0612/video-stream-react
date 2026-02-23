@@ -31,6 +31,90 @@ const PlayVideo = () => {
                 <span>1M Subscribers</span>
             </div>
             <button>Subscribe</button>
+            <div className="video-description">
+                <p>Channel that helps you learn web development and programming skills.</p>
+                <p>Subscribe to watch More video</p>
+                <hr />
+                <h4>130 Comments</h4>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="comment">
+                    <img src={user_profile} alt="" />
+                    <div>
+                        <h3>John Doe <span>3day ago</span></h3>
+                        <p>This video is very helpful for beginners learning web development.</p>
+                        <div className="comment-action">
+                            <img src={like} alt="" />
+                            <span>407</span>
+                            <img src={dislike} alt="" />
+                            <span>12</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
