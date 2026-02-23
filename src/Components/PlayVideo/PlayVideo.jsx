@@ -23,6 +23,15 @@ const PlayVideo = () => {
             <span><img src={save} alt="" />250</span>
             </div>
         </div>
+        <hr />
+        <div className="publisher">
+            <img src={jack} alt="" />
+            <div>
+                <p>Jack An</p>
+                <span>1M Subscribers</span>
+            </div>
+            <button>Subscribe</button>
+        </div>
     </div>
   )
 }
