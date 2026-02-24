@@ -31,6 +31,7 @@ const PlayVideo = () => {
                 <span>1M Subscribers</span>
             </div>
             <button>Subscribe</button>
+        </div>    
             <div className="video-description">
                 <p>Channel that helps you learn web development and programming skills.</p>
                 <p>Subscribe to watch More video</p>
@@ -115,7 +116,6 @@ const PlayVideo = () => {
                     </div>
                 </div>
             </div>
-        </div>
     </div>
   )
 }
