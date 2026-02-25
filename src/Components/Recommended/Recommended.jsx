@@ -20,6 +20,46 @@ const Recommended = () => {
             <p>199k View</p>
           </div>
         </div>
+        <div className="side-video-list">
+          <img src={thumbnail1} alt="Thumbnail 1" />
+          <div className="vid-info">
+            <h4>Best channel that help you to be a web developer</h4>
+            <p>RushiPatil</p>
+            <p>199k View</p>
+          </div>
+        </div>
+        <div className="side-video-list">
+          <img src={thumbnail2} alt="Thumbnail 2" />
+          <div className="vid-info">
+            <h4>Best channel that help you to be a web developer</h4>
+            <p>RushiPatil</p>
+            <p>199k View</p>
+          </div>
+        </div>
+        <div className="side-video-list">
+          <img src={thumbnail3} alt="Thumbnail 3" />
+          <div className="vid-info">
+            <h4>Best channel that help you to be a web developer</h4>
+            <p>RushiPatil</p>
+            <p>199k View</p>
+          </div>
+        </div>
+        <div className="side-video-list">
+          <img src={thumbnail4} alt="Thumbnail 4" />
+          <div className="vid-info">
+            <h4>Best channel that help you to be a web developer</h4>
+            <p>RushiPatil</p>
+            <p>199k View</p>
+          </div>
+        </div>
+        <div className="side-video-list">
+          <img src={thumbnail5} alt="Thumbnail 5" />
+          <div className="vid-info">
+            <h4>Best channel that help you to be a web developer</h4>
+            <p>RushiPatil</p>
+            <p>199k View</p>
+          </div>
+        </div>
     </div>
   )
 }
