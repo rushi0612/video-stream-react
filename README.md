@@ -1,16 +1,99 @@
-# React + Vite
+Video Stream React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Video Streaming Web Application built using React.js, allowing users to browse and watch videos with a smooth and interactive UI.
 
-Currently, two official plugins are available:
+🚀 Features
+🔐 User Authentication (Login System)
+🎥 Video Streaming Player
+📂 Browse Videos from Backend
+❤️ Add to Favorites (Global State)
+⚡ Fast and Responsive UI
+🔄 Single Page Application (SPA)
+🛡️ Protected Routes
+🛠️ Tech Stack
+Frontend: React.js
+State Management: Redux
+Routing: React Router
+Styling: CSS / SCSS
+HTTP Client: Axios
+📁 Project Structure
+video-stream-react/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/rushi0612/video-stream-react.git
+cd video-stream-react
+2️⃣ Install Dependencies
+npm install
+3️⃣ Configure Backend Server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Go to:
 
-## React Compiler
+src/ipConfig.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Update the backend server URL:
 
-## Expanding the ESLint configuration
+const serverIp = "localhost:4000";
+export default serverIp;
+4️⃣ Run the Application
+npm start
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+App will run on:
+
+http://localhost:3000
+🔗 Backend Requirement
+
+This frontend requires a backend server to function properly.
+
+Make sure backend is running on the configured IP and port
+Backend handles:
+Authentication
+Video data APIs
+Streaming endpoints
+📸 Screens
+🔑 Login Page
+🏠 Home Page (Video List)
+▶️ Video Player Page
+❌ 404 Page
+📌 How It Works
+User logs in using credentials
+Fetches videos from backend API
+Displays videos on homepage
+User can play videos in player view
+Favorites are managed using Redux global state
+🧠 Learning Outcomes
+React Component Architecture
+State Management using Redux
+API Integration using Axios
+Protected Routing
+Building a Streaming UI
+🚀 Future Improvements
+🔍 Search Functionality
+💬 Comments Section
+📺 Live Streaming Support
+🌐 Deployment (AWS / Vercel)
+📱 Mobile Optimization
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+Create a new branch
+Commit your changes
+Push and create a PR
+
+👨‍💻 Author
+
+Rushikesh Patil
+
+GitHub: https://github.com/rushi0612
